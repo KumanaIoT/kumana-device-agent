@@ -1,0 +1,11 @@
+[Unit]
+Description=waterflow springboot application
+After=syslog.target
+
+[Service]
+ExecStart=/home/kumanaiotg1/Desktop/deviceAgent/waterflow/com.kumana.iotp.serial.waterflow-0.0.1-SNAPSHOT.jar  -Xmx512M
+Restart = always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

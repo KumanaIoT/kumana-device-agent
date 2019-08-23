@@ -1,0 +1,125 @@
+waterlvl:
+  list:
+    minor:
+      primaryCode: water-lvl-minor
+      secondaryCode: my description
+      variables:
+        normal: normalval
+      alertStatus: INFORMATIONAL
+    major:
+      primaryCode: water-lvl-major
+      secondaryCode: my description
+      variables:
+              normal: normalval
+      alertStatus: RESOLVED
+    critical:
+      primaryCode: water-lvl-critical
+      secondaryCode: my description
+      variables:
+              normal: normalval
+      alertStatus: ACTIVE
+
+lux:
+  list:
+    minor:
+      primaryCode: lux-minor
+      secondaryCode: my description
+      variables:
+        normal: normalval
+      alertStatus: INFORMATIONAL
+    major:
+      primaryCode: lux-major
+      secondaryCode: my description
+      variables:
+              normal: normalval
+      alertStatus: RESOLVED
+    critical:
+      primaryCode: lux-critical
+      secondaryCode: my description
+      variables:
+              normal: normalval
+      alertStatus: ACTIVE
+
+humidity:
+  list:
+    minor:
+      primaryCode: humidity-minor
+      secondaryCode: my description
+      variables:
+        normal: normalval
+      alertStatus: INFORMATIONAL
+    major:
+      primaryCode: humidity-major
+      secondaryCode: my description
+      variables:
+              normal: normalval
+      alertStatus: RESOLVED
+    critical:
+      primaryCode: humidity-critical
+      secondaryCode: my description
+      variables:
+              normal: normalval
+      alertStatus: ACTIVE
+
+temperature:
+  list:
+    minor:
+      primaryCode: temperature-minor
+      secondaryCode: my description
+      variables:
+        normal: normalval
+      alertStatus: INFORMATIONAL
+    major:
+      primaryCode: temperature-major
+      secondaryCode: my description
+      variables:
+              normal: normalval
+      alertStatus: RESOLVED
+    critical:
+      primaryCode: temperature-critical
+      secondaryCode: my description
+      variables:
+              normal: normalval
+      alertStatus: ACTIVE
+
+current:
+  list:
+    minor:
+      primaryCode: current-minor
+      secondaryCode: my description
+      variables:
+        normal: normalval
+      alertStatus: INFORMATIONAL
+    major:
+      primaryCode: current-major
+      secondaryCode: my description
+      variables:
+              normal: normalval
+      alertStatus: RESOLVED
+    critical:
+      primaryCode: current-critical
+      secondaryCode: my description
+      variables:
+              normal: normalval
+      alertStatus: ACTIVE
+
+voltage:
+  list:
+    minor:
+      primaryCode: current-minor
+      secondaryCode: my description
+      variables:
+        normal: normalval
+      alertStatus: INFORMATIONAL
+    major:
+      primaryCode: current-major
+      secondaryCode: my description
+      variables:
+              normal: normalval
+      alertStatus: RESOLVED
+    critical:
+      primaryCode: current-critical
+      secondaryCode: my description
+      variables:
+              normal: normalval
+      alertStatus: ACTIVE

@@ -1,0 +1,7 @@
+execute this command to install the libraries included in setup folder.
+
+1) group id - jssc artifact id jssc version 1.0
+2) group id - jlibmodbus  artifact id - jlibmodbus version1.0
+
+mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> \
+    -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging>

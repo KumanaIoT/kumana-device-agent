@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="60">
+    <Properties>
+        <Property name="path">logs</Property>
+    </Properties>
+    <Appenders>
+        <Console name="Console-Appender" target="SYSTEM_OUT">
+            <PatternLayout>
+                <pattern>
+                    [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+                </pattern>
+            </PatternLayout>
+        </Console>
+
+        <!-- Rolling File Appender -->
+        <RollingFile name="RollingFile">
+            <FileName>${path}/liteconnector.log</FileName>
+            <FilePattern>${path}/time-based-logs/%d{yyyy-MM-dd}.liteconnector_log.zip</FilePattern>
+            <PatternLayout>
+                <Pattern> [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <!--setting daily rollover-->
+                 <TimeBasedTriggeringPolicy interval="1" modulate="true" />  
+            </Policies>
+
+            <DefaultRolloverStrategy>
+                <!-- if number of files exeed 5 oldest one will be deleted-->
+                <Delete basePath="${path}/time-based-logs" maxDepth="1">
+                    <IfFileName glob="????-??-??.liteconnector_log.zip">
+                        <IfAny>
+                            <IfAccumulatedFileSize exceeds="250 MB" />
+                            <IfAccumulatedFileCount exceeds="5" />
+                        </IfAny>
+                    </IfFileName>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+        
+    </Appenders>
+
+    <Loggers>
+        <Logger name="org.springframework" level="info" additivity="false">
+            <AppenderRef ref="RollingFile"/> 
+            <AppenderRef ref="Console-Appender"/>
+        </Logger>
+        <Logger name="com.kumana.iotp" level="info"
+                additivity="false">
+            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="Console-Appender"/>
+        </Logger>
+        <Root>
+            <AppenderRef ref="Console-Appender"/>
+        </Root>
+    </Loggers>
+</Configuration>

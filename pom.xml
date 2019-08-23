@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.kumana.iotp</groupId>
+    <artifactId>com.kumana.iotp.deviceagent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.qunix</groupId>
+                <artifactId>structure-maven-plugin</artifactId>
+                <version>0.0.1</version>
+                <inherited>false</inherited>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>
+                                printModules
+                            </goal>
+                            <goal>
+                                printFolders
+                            </goal>
+                            <goal>
+                                printAll
+                            </goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+
+    </build>
+
+
+    <modules>
+        <module>com.kumana.iotp.broker.app</module>
+	<module>com.kumana.iotp.broker</module>
+        <module>com.kumana.iotp.lite</module>
+        <module>com.kumana.iotp.connector.lite</module>
+        <module>com.kumana.iotp.aws</module>
+        <module>com.kumana.iotp.connector.aws</module>
+        <module>com.kumana.iotp.mqtt.connector</module>
+        <module>com.kumana.iotp.core</module>
+        <module>com.kumana.iotp.sensor.controller</module>
+        <module>com.kumana.iotp.serial</module>
+        <module>com.kumana.iotp.serial.waterflow</module>
+        <module>com.kumana.iotp.edge.pumpcontroller</module>
+        <module>com.kumana.iotp.serial.pump</module>
+        <module>com.kumana.iotp.modbus.Rtuconnection</module>
+        <module>com.kumana.iotp.modbus.core</module>
+        <module>com.kumana.iotp.modbus.waterlvl</module>
+        <module>com.kumana.iotp.modbuRtu.connector</module>
+        <module>com.kumana.iotp.modbus.lux</module>
+        <module>com.kumana.iotp.modbus.humidity</module>
+        <module>com.kumana.iotp.modbus.temperature</module>
+        <module>com.kumana.iotp.modbus.current</module>
+        <module>com.kumana.iotp.modbus.voltage</module>
+        <module>com.kumana.iotp.serial.gsm</module>
+        <module>com.kumana.iotp.modbus.Tcpconnection</module>
+        <module>com.kumana.iotp.modbusTcp.connector</module>
+        <module>com.kumana.iotp.modbus.battery</module>
+        <module>com.kumana.iotp.sensor.transformations</module>
+        <module>com.kumana.iotp.serial.waterlvl</module>
+  </modules>
+    <packaging>pom</packaging>
+
+    <name>com.kumana.iotp.deviceagent</name>
+    <description>Kumana Device Agent Project</description>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.4.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.module</groupId>
+            <artifactId>jackson-module-jsonSchema</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>5.4.1.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.qunix</groupId>
+            <artifactId>structure-maven-plugin</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>

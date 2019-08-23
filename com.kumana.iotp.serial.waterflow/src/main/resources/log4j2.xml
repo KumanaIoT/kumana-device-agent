@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="60">
+    <Properties>
+        <Property name="path">logs</Property>
+    </Properties>
+    <Appenders>
+        <Console name="Console-Appender" target="SYSTEM_OUT">
+            <PatternLayout>
+                <pattern>
+                    [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+                </pattern>
+                >
+            </PatternLayout>
+        </Console>
+        <File name="App-Appender" fileName="${path}/app_log.log">
+            <PatternLayout>
+                <pattern>
+                    [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+                </pattern>
+            </PatternLayout>
+        </File>
+        <File name="SpringBoot-Appender" fileName="${path}/springboot_log.log">
+            <PatternLayout>
+                <pattern>
+                    [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+                </pattern>
+            </PatternLayout>
+        </File>
+
+
+        <!-- Rolling File Appender -->
+        <RollingFile name="RollingFile">
+            <FileName>logs/deviceagentaws.log</FileName>
+            <FilePattern>logs/time-based-logs/%d{yyyy-MM-dd}.log.zip</FilePattern>
+            <PatternLayout>
+                <Pattern>%d{HHmmssSSS-yyyy-MMM-dd} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <!--setting daily rollover-->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+            </Policies>
+
+            <DefaultRolloverStrategy>
+                <!-- if number of files exeed 5 oldest one will be deleted-->
+                <Delete basePath="logs/time-based-logs" maxDepth="1">
+                    <IfFileName glob="????-??-??.log.zip">
+                        <IfAny>
+                            <IfAccumulatedFileSize exceeds="250 MB" />
+                            <IfAccumulatedFileCount exceeds="5" />
+                        </IfAny>
+                    </IfFileName>
+                </Delete>
+            </DefaultRolloverStrategy>
+
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="org.springframework.boot" level="info" additivity="false">
+            <AppenderRef ref="SpringBoot-Appender"/>
+            <AppenderRef ref="Console-Appender"/>
+        </Logger>
+        <Logger name="com.kumana.iotp" level="info"
+                additivity="false">
+            <AppenderRef ref="App-Appender"/>
+            <AppenderRef ref="Console-Appender"/>
+        </Logger>
+        <Root>
+            <AppenderRef ref="Console-Appender"/>
+        </Root>
+    </Loggers>
+</Configuration>

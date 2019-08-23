@@ -1,0 +1,20 @@
+Alerts:
+  list:
+    minor:
+      primaryCode: water-flow-minor
+      secondaryCode: my description
+      variables:
+        normal: normalval
+      alertStatus: INFORMATIONAL
+    major:
+      primaryCode: water-flow-major
+      secondaryCode: my description
+      variables:
+              normal: normalval
+      alertStatus: RESOLVED
+    critical:
+          primaryCode: water-flow-critical
+          secondaryCode: my description
+          variables:
+                  normal: normalval
+          alertStatus: ACTIVE

@@ -1,0 +1,29 @@
+1) set a user for the application
+
+$ sudo useradd kumana
+$ sudo passwd kumana
+$ sudo chown kumana:kumana your-app.jar
+$ sudo chmod 500 your-app.jar
+
+2) create a serviceName.service file in /etc/systemd/system directory
+
+[Unit]
+Description= another sensor app.
+After=syslog.target
+
+[Service]
+User=baeldung
+ExecStart=/path/to/your-app.jar SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
+
+
+3) once completed these commands will be available
+
+$ systemctl start serviceName - start the service
+$ systemctl stop serviceName - stop the service
+$ systemctl status serviceName - check the status of the service
+$ systemctl enable serviceName - enable system at every boot
+$ systemctl disable serviceName - disable system.
+

@@ -1,0 +1,20 @@
+Alerts:
+  list:
+    minor:
+      primaryCode: water-pump-message
+      secondaryCode: on-command-received
+      variables:
+        sender: edge
+      alertStatus: INFORMATIONAL
+    major:
+      primaryCode: water-pump-major
+      secondaryCode: my description
+      variables:
+        normal: normalval
+      alertStatus: RESOLVED
+    critical:
+      primaryCode: water-pump-critical
+      secondaryCode: my description
+      variables:
+        normal: normalval
+      alertStatus: ACTIVE

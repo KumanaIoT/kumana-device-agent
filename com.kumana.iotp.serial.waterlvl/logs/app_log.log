@@ -1,0 +1,1542 @@
+[INFO ] 2017-10-09 13:36:54.808 [main] WaterLvlStarter - Starting WaterLvlStarter on CentOS7.3 with PID 9839 (/home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl/target/classes started by priyamal in /home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl)
+[INFO ] 2017-10-09 13:36:54.809 [main] WaterLvlStarter - No active profile set, falling back to default profiles: default
+[ERROR] 2017-10-09 13:36:57.889 [main] Transformations - file not found exception.
+[INFO ] 2017-10-09 13:36:59.039 [main] WaterLvlStarter - Started WaterLvlStarter in 4.786 seconds (JVM running for 10.978)
+[INFO ] 2017-10-09 13:36:59.061 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-09 13:36:59.106 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-09 13:36:59.117 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-09 13:36:59.126 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-09 13:36:59.426 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-09 13:36:59.427 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-09 13:36:59.429 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-09 13:36:59.430 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-09 13:36:59.431 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-09 13:36:59.432 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-09 13:36:59.587 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507536419432
+}
+[INFO ] 2017-10-09 13:36:59.980 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-09 13:36:59.980 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-09 13:36:59.981 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-09 13:36:59.981 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-09 13:36:59.981 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-09 13:36:59.981 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-09 13:36:59.982 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507536419981
+}
+<<<<<<< HEAD
+[INFO ] 2017-10-10 13:37:38.051 [main] WaterLvlStarter - Starting WaterLvlStarter on CentOS7.3 with PID 6578 (/home/centos/Documents/kiot-da-2/kumana-deviceagent/com.kumana.iotp.serial.waterlvl/target/classes started by centos in /home/centos/Documents/kiot-da-2/kumana-deviceagent/com.kumana.iotp.serial.waterlvl)
+[INFO ] 2017-10-10 13:37:38.056 [main] WaterLvlStarter - No active profile set, falling back to default profiles: default
+[ERROR] 2017-10-10 13:37:39.687 [main] Transformations - file not found exception.
+[INFO ] 2017-10-10 13:37:40.294 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:37:40.295 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:37:40.297 [main] WaterLvlStarter - Started WaterLvlStarter in 2.563 seconds (JVM running for 6.226)
+[INFO ] 2017-10-10 13:37:40.310 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:37:40.312 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:37:40.613 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:37:40.613 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:37:40.614 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:37:40.614 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:37:40.615 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:37:40.616 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 13:37:41.003 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:37:41.004 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:37:41.005 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:37:41.005 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:37:41.005 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:37:41.005 [pool-2-thread-1] SendMqMsg - trying to publish alert
+=======
+[INFO ] 2017-10-10 13:52:46.643 [main] WaterLvlStarter - Starting WaterLvlStarter on CentOS7.3 with PID 8238 (/home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl/target/classes started by priyamal in /home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl)
+[INFO ] 2017-10-10 13:52:46.645 [main] WaterLvlStarter - No active profile set, falling back to default profiles: default
+[ERROR] 2017-10-10 13:52:49.541 [main] Transformations - file not found exception.
+[INFO ] 2017-10-10 13:52:50.728 [main] WaterLvlStarter - Started WaterLvlStarter in 4.644 seconds (JVM running for 11.954)
+[INFO ] 2017-10-10 13:52:50.778 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:52:50.803 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:52:50.817 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:52:50.818 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:52:51.121 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:52:51.121 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:52:51.122 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:52:51.122 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:52:51.123 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:52:51.123 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:52:51.238 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507623771123
+}
+[INFO ] 2017-10-10 13:52:51.665 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:52:51.666 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:52:51.667 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:52:51.667 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:52:51.667 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:52:51.667 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:52:51.667 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507623771667
+}
+[INFO ] 2017-10-10 13:54:53.028 [main] WaterLvlStarter - Starting WaterLvlStarter on CentOS7.3 with PID 8346 (/home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl/target/classes started by priyamal in /home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl)
+[INFO ] 2017-10-10 13:54:53.030 [main] WaterLvlStarter - No active profile set, falling back to default profiles: default
+[ERROR] 2017-10-10 13:54:56.684 [main] Transformations - file not found exception.
+[INFO ] 2017-10-10 13:54:58.133 [main] WaterLvlStarter - Started WaterLvlStarter in 5.926 seconds (JVM running for 13.997)
+[INFO ] 2017-10-10 13:54:58.163 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:54:58.164 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:54:58.196 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:54:58.198 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:54:58.498 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:54:58.498 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:54:58.501 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:54:58.501 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:54:58.502 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:54:58.503 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:54:58.616 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507623898503
+}
+[INFO ] 2017-10-10 13:54:58.943 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:54:58.943 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:54:58.945 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:54:58.945 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:54:58.945 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:54:58.945 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:54:58.945 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507623898945
+}
+[INFO ] 2017-10-10 13:55:58.166 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:55:58.166 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:55:58.167 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:55:58.168 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:55:58.168 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:55:58.168 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:55:58.168 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507623958168
+}
+[INFO ] 2017-10-10 13:55:58.470 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:55:58.470 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:55:58.471 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:55:58.471 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:55:58.471 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:55:58.472 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:55:58.472 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507623958472
+}
+[INFO ] 2017-10-10 13:55:58.773 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:55:58.773 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:55:58.776 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:55:58.776 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:55:58.776 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:55:58.777 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:55:58.777 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507623958777
+}
+[INFO ] 2017-10-10 13:56:58.176 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:56:58.176 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:56:58.178 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:56:58.178 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:56:58.178 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:56:58.178 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:56:58.178 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507624018178
+}
+[INFO ] 2017-10-10 13:56:58.479 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:56:58.479 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:56:58.482 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:56:58.483 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:56:58.483 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:56:58.483 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:56:58.484 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507624018484
+}
+[INFO ] 2017-10-10 13:56:58.787 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:56:58.787 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:56:58.790 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:56:58.791 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:56:58.791 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:56:58.791 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:56:58.792 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507624018791
+}
+[INFO ] 2017-10-10 13:57:58.180 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:57:58.180 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:57:58.182 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:57:58.182 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:57:58.182 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:57:58.182 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:57:58.182 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507624078182
+}
+[INFO ] 2017-10-10 13:57:58.486 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:57:58.487 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:57:58.488 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:57:58.488 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:57:58.488 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:57:58.488 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:57:58.488 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507624078488
+}
+[INFO ] 2017-10-10 13:57:58.811 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:57:58.811 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:57:58.812 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:57:58.812 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:57:58.812 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:57:58.813 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:57:58.813 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507624078813
+}
+[INFO ] 2017-10-10 13:58:58.180 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:58:58.180 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:58:58.185 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:58:58.185 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:58:58.185 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:58:58.186 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:58:58.186 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507624138186
+}
+[INFO ] 2017-10-10 13:58:58.489 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:58:58.489 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:58:58.490 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:58:58.490 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:58:58.490 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:58:58.490 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:58:58.491 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507624138490
+}
+[INFO ] 2017-10-10 13:58:58.792 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:58:58.792 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:58:58.795 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:58:58.795 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:58:58.796 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:58:58.796 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:58:58.796 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507624138796
+}
+[INFO ] 2017-10-10 13:59:58.180 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:59:58.180 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:59:58.181 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:59:58.182 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:59:58.182 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:59:58.182 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:59:58.182 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507624198182
+}
+[INFO ] 2017-10-10 13:59:58.483 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:59:58.483 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:59:58.484 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:59:58.484 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:59:58.484 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:59:58.484 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:59:58.486 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507624198484
+}
+[INFO ] 2017-10-10 13:59:58.787 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 13:59:58.787 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 13:59:58.790 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 13:59:58.791 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 13:59:58.791 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 13:59:58.791 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 13:59:58.792 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507624198791
+}
+[INFO ] 2017-10-10 14:14:53.396 [main] WaterLvlStarter - Starting WaterLvlStarter on CentOS7.3 with PID 9124 (/home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl/target/classes started by priyamal in /home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl)
+[INFO ] 2017-10-10 14:14:53.398 [main] WaterLvlStarter - No active profile set, falling back to default profiles: default
+[ERROR] 2017-10-10 14:14:56.488 [main] Transformations - file not found exception.
+[INFO ] 2017-10-10 14:14:57.710 [main] WaterLvlStarter - Started WaterLvlStarter in 4.948 seconds (JVM running for 11.919)
+[INFO ] 2017-10-10 14:14:57.725 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:14:57.777 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:14:57.797 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:14:57.798 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:14:58.099 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:14:58.099 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:14:58.100 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:14:58.100 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:14:58.101 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:14:58.101 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:14:58.213 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625098101
+}
+[INFO ] 2017-10-10 14:14:58.626 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:14:58.626 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:14:58.627 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:14:58.627 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:14:58.627 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:14:58.627 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:14:58.628 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625098627
+}
+[INFO ] 2017-10-10 14:16:10.676 [main] WaterLvlStarter - Starting WaterLvlStarter on CentOS7.3 with PID 9190 (/home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl/target/classes started by priyamal in /home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl)
+[INFO ] 2017-10-10 14:16:10.678 [main] WaterLvlStarter - No active profile set, falling back to default profiles: default
+[ERROR] 2017-10-10 14:16:14.105 [main] Transformations - file not found exception.
+[INFO ] 2017-10-10 14:16:15.364 [main] WaterLvlStarter - Started WaterLvlStarter in 5.345 seconds (JVM running for 12.696)
+[INFO ] 2017-10-10 14:16:15.390 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:16:15.391 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:16:15.400 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:16:15.402 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:16:15.703 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:16:15.703 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:16:15.704 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:16:15.705 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:16:15.705 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:16:15.705 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:16:15.837 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625175706
+}
+[INFO ] 2017-10-10 14:16:16.166 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:16:16.166 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:16:16.167 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:16:16.167 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:16:16.167 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:16:16.167 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:16:16.168 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625176168
+}
+[INFO ] 2017-10-10 14:17:15.400 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:17:15.400 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:17:15.401 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:17:15.401 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:17:15.401 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:17:15.401 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:17:15.401 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625235401
+}
+[INFO ] 2017-10-10 14:17:15.705 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:17:15.705 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:17:15.706 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:17:15.706 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:17:15.706 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:17:15.706 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:17:15.707 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625235707
+}
+[INFO ] 2017-10-10 14:17:16.008 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:17:16.008 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:17:16.009 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:17:16.009 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:17:16.009 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:17:16.009 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:17:16.010 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625236010
+}
+[INFO ] 2017-10-10 14:18:15.400 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:18:15.400 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:18:15.401 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:18:15.401 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:18:15.402 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:18:15.402 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:18:15.402 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625295402
+}
+[INFO ] 2017-10-10 14:18:15.703 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:18:15.703 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:18:15.704 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:18:15.704 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:18:15.704 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:18:15.704 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:18:15.705 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625295704
+}
+[INFO ] 2017-10-10 14:18:16.006 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:18:16.006 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:18:16.007 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:18:16.007 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:18:16.007 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:18:16.007 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:18:16.008 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625296007
+}
+[INFO ] 2017-10-10 14:19:15.403 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:19:15.403 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:19:15.404 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:19:15.404 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:19:15.405 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:19:15.405 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:19:15.405 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625355405
+}
+[INFO ] 2017-10-10 14:19:15.706 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:19:15.706 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:19:15.707 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:19:15.707 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:19:15.707 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:19:15.707 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:19:15.708 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625355708
+}
+[INFO ] 2017-10-10 14:19:16.009 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:19:16.009 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:19:16.010 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:19:16.010 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:19:16.010 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:19:16.010 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:19:16.011 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625356010
+}
+[INFO ] 2017-10-10 14:20:15.403 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:20:15.404 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:20:15.407 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:20:15.407 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:20:15.407 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:20:15.407 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:20:15.408 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625415407
+}
+[INFO ] 2017-10-10 14:20:15.708 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:20:15.709 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:20:15.710 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:20:15.710 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:20:15.710 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:20:15.710 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:20:15.710 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625415710
+}
+[INFO ] 2017-10-10 14:20:16.021 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:20:16.021 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:20:16.022 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:20:16.022 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:20:16.022 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:20:16.022 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:20:16.022 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625416022
+}
+[INFO ] 2017-10-10 14:21:15.403 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:21:15.404 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:21:15.405 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:21:15.405 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:21:15.405 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:21:15.405 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:21:15.405 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625475405
+}
+[INFO ] 2017-10-10 14:21:15.706 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:21:15.706 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:21:15.707 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:21:15.707 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:21:15.707 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:21:15.707 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:21:15.709 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625475707
+}
+[INFO ] 2017-10-10 14:21:16.017 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:21:16.017 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:21:16.018 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:21:16.018 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:21:16.018 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:21:16.018 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:21:16.019 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625476018
+}
+[INFO ] 2017-10-10 14:23:49.441 [main] WaterLvlStarter - Starting WaterLvlStarter on CentOS7.3 with PID 9507 (/home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl/target/classes started by priyamal in /home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl)
+[INFO ] 2017-10-10 14:23:49.443 [main] WaterLvlStarter - No active profile set, falling back to default profiles: default
+[ERROR] 2017-10-10 14:23:52.748 [main] Transformations - file not found exception.
+[INFO ] 2017-10-10 14:23:54.058 [main] WaterLvlStarter - Started WaterLvlStarter in 5.386 seconds (JVM running for 12.539)
+[INFO ] 2017-10-10 14:23:54.080 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:23:54.118 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:23:54.128 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:23:54.135 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:23:54.436 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:23:54.436 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:23:54.438 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:23:54.438 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:23:54.439 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:23:54.439 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:23:54.554 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625634439
+}
+[INFO ] 2017-10-10 14:23:55.014 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:23:55.015 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:23:55.016 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:23:55.016 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:23:55.016 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:23:55.016 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:23:55.017 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625635016
+}
+[INFO ] 2017-10-10 14:24:54.086 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:24:54.086 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:24:54.087 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:24:54.087 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:24:54.087 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:24:54.088 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:24:54.088 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625694088
+}
+[INFO ] 2017-10-10 14:24:54.396 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:24:54.397 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:24:54.398 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:24:54.398 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:24:54.398 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:24:54.398 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:24:54.398 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625694398
+}
+[INFO ] 2017-10-10 14:24:54.702 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:24:54.702 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:24:54.703 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:24:54.703 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:24:54.703 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:24:54.704 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:24:54.704 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625694704
+}
+[INFO ] 2017-10-10 14:25:54.086 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:25:54.086 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:25:54.087 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:25:54.087 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:25:54.088 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:25:54.088 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:25:54.088 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625754088
+}
+[INFO ] 2017-10-10 14:25:54.398 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:25:54.398 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:25:54.399 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:25:54.399 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:25:54.399 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:25:54.399 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:25:54.399 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625754399
+}
+[INFO ] 2017-10-10 14:25:54.701 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:25:54.701 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:25:54.702 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:25:54.702 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:25:54.702 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:25:54.702 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:25:54.703 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625754703
+}
+[INFO ] 2017-10-10 14:26:54.086 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:26:54.086 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:26:54.087 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:26:54.088 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:26:54.088 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:26:54.088 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:26:54.088 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625814088
+}
+[INFO ] 2017-10-10 14:26:54.389 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:26:54.389 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:26:54.390 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:26:54.391 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:26:54.391 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:26:54.391 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:26:54.391 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625814391
+}
+[INFO ] 2017-10-10 14:26:54.692 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:26:54.692 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:26:54.693 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:26:54.693 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:26:54.693 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:26:54.693 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:26:54.693 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625814693
+}
+[INFO ] 2017-10-10 14:27:54.086 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:27:54.087 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:27:54.088 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:27:54.088 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:27:54.088 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:27:54.088 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:27:54.088 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625874088
+}
+[INFO ] 2017-10-10 14:27:54.389 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:27:54.389 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:27:54.390 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:27:54.390 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:27:54.390 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:27:54.390 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:27:54.391 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625874390
+}
+[INFO ] 2017-10-10 14:27:54.691 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:27:54.692 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:27:54.693 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:27:54.693 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:27:54.693 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:27:54.693 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:27:54.693 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625874693
+}
+[INFO ] 2017-10-10 14:28:54.087 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:28:54.087 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:28:54.088 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:28:54.088 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:28:54.088 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:28:54.088 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:28:54.089 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625934089
+}
+[INFO ] 2017-10-10 14:28:54.390 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:28:54.390 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:28:54.391 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:28:54.391 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:28:54.391 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:28:54.391 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:28:54.393 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625934391
+}
+[INFO ] 2017-10-10 14:28:54.694 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:28:54.694 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:28:54.695 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:28:54.695 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:28:54.695 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:28:54.695 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:28:54.695 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625934695
+}
+[INFO ] 2017-10-10 14:29:54.087 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:29:54.087 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:29:54.088 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:29:54.089 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:29:54.089 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:29:54.089 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:29:54.089 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625994089
+}
+[INFO ] 2017-10-10 14:29:54.390 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:29:54.390 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:29:54.391 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:29:54.392 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:29:54.392 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:29:54.392 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:29:54.392 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625994392
+}
+[INFO ] 2017-10-10 14:29:54.693 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:29:54.693 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:29:54.694 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:29:54.694 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:29:54.694 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:29:54.695 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:29:54.695 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507625994695
+}
+[INFO ] 2017-10-10 14:30:54.087 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:30:54.087 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:30:54.090 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:30:54.090 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:30:54.090 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:30:54.090 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:30:54.091 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626054090
+}
+[INFO ] 2017-10-10 14:30:54.391 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:30:54.392 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:30:54.393 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:30:54.393 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:30:54.393 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:30:54.393 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:30:54.394 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626054393
+}
+[INFO ] 2017-10-10 14:30:54.694 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:30:54.694 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:30:54.695 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:30:54.696 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:30:54.696 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:30:54.696 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:30:54.696 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626054696
+}
+[INFO ] 2017-10-10 14:31:54.087 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:31:54.088 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:31:54.089 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:31:54.089 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:31:54.089 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:31:54.089 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:31:54.089 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626114089
+}
+[INFO ] 2017-10-10 14:31:54.390 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:31:54.390 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:31:54.391 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:31:54.391 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:31:54.391 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:31:54.392 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:31:54.392 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626114392
+}
+[INFO ] 2017-10-10 14:31:54.693 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:31:54.693 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:31:54.694 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:31:54.694 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:31:54.694 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:31:54.695 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:31:54.695 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626114695
+}
+[INFO ] 2017-10-10 14:32:50.510 [MQTT Call: waterpumpclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 14:32:54.087 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:32:54.088 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:32:54.089 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:32:54.089 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:32:54.089 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:32:54.089 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:32:54.089 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626174089
+}
+[INFO ] 2017-10-10 14:32:54.401 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:32:54.401 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:32:54.402 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:32:54.403 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:32:54.403 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:32:54.403 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:32:54.403 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626174403
+}
+[INFO ] 2017-10-10 14:32:54.704 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:32:54.704 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:32:54.705 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:32:54.705 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:32:54.705 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:32:54.705 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:32:54.705 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626174705
+}
+[INFO ] 2017-10-10 14:33:54.088 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:33:54.088 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:33:54.089 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:33:54.089 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:33:54.090 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:33:54.090 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:33:54.090 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626234090
+}
+[INFO ] 2017-10-10 14:33:54.411 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:33:54.411 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:33:54.412 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:33:54.412 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:33:54.412 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:33:54.412 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:33:54.412 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626234412
+}
+[INFO ] 2017-10-10 14:33:54.713 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:33:54.713 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:33:54.714 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:33:54.714 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:33:54.714 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:33:54.714 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:33:54.715 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626234715
+}
+[INFO ] 2017-10-10 14:37:20.546 [main] WaterLvlStarter - Starting WaterLvlStarter on CentOS7.3 with PID 9986 (/home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl/target/classes started by priyamal in /home/priyamal/projects/kumana-deviceagent/com.kumana.iotp.serial.waterlvl)
+[INFO ] 2017-10-10 14:37:20.547 [main] WaterLvlStarter - No active profile set, falling back to default profiles: default
+[ERROR] 2017-10-10 14:37:25.389 [main] Transformations - file not found exception.
+[INFO ] 2017-10-10 14:37:27.753 [main] WaterLvlStarter - Started WaterLvlStarter in 7.871 seconds (JVM running for 15.956)
+[INFO ] 2017-10-10 14:37:27.806 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:37:27.875 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:37:27.887 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:37:27.889 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:37:28.190 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:37:28.190 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:37:28.191 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:37:28.192 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:37:28.192 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:37:28.192 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:37:28.383 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626448192
+}
+[INFO ] 2017-10-10 14:37:28.902 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:37:28.903 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:37:28.904 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:37:28.904 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:37:28.904 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:37:28.904 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:37:28.904 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626448904
+}
+[INFO ] 2017-10-10 14:38:27.816 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:38:27.816 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:38:27.817 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:38:27.817 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:38:27.817 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:38:27.818 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:38:27.818 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626507818
+}
+[INFO ] 2017-10-10 14:38:28.119 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:38:28.119 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:38:28.120 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:38:28.120 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:38:28.120 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:38:28.120 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:38:28.121 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626508120
+}
+[INFO ] 2017-10-10 14:38:28.425 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:38:28.425 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:38:28.426 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:38:28.426 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:38:28.426 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:38:28.427 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:38:28.427 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626508427
+}
+[INFO ] 2017-10-10 14:38:32.561 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 14:38:50.350 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 14:39:27.817 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:39:27.817 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:39:27.818 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:39:27.818 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:39:27.818 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:39:27.818 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:39:27.818 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626567818
+}
+[INFO ] 2017-10-10 14:39:28.123 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:39:28.123 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:39:28.125 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:39:28.125 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:39:28.125 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:39:28.125 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:39:28.125 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626568125
+}
+[INFO ] 2017-10-10 14:39:28.426 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 14:39:28.426 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 14:39:28.427 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 14:39:28.427 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 14:39:28.427 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 14:39:28.427 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[ERROR] 2017-10-10 14:39:28.428 [pool-2-thread-1] SendMqMsg - {
+  "primaryCode" : "water-pump-critical",
+  "secondaryCode" : "my description",
+  "variables" : {
+    "normal" : "normalval"
+  },
+  "alertStatus" : "ACTIVE",
+  "statusChangeTimestamp" : 1507626568427
+}
+[INFO ] 2017-10-10 14:39:28.668 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 14:39:50.504 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+>>>>>>> 27c1bda4b86d9b57335fc160f0329930ec3ebfca
+[INFO ] 2017-10-10 15:12:24.092 [main] WaterLvlStarter - Starting WaterLvlStarter on CentOS7.3 with PID 5228 (/home/centos/Documents/kiot-da-2/kumana-deviceagent/com.kumana.iotp.serial.waterlvl/target/classes started by centos in /home/centos/Documents/kiot-da-2/kumana-deviceagent/com.kumana.iotp.serial.waterlvl)
+[INFO ] 2017-10-10 15:12:24.111 [main] WaterLvlStarter - No active profile set, falling back to default profiles: default
+[ERROR] 2017-10-10 15:12:26.536 [main] Transformations - file not found exception.
+[INFO ] 2017-10-10 15:12:27.143 [main] WaterLvlStarter - Started WaterLvlStarter in 3.627 seconds (JVM running for 11.096)
+[INFO ] 2017-10-10 15:12:27.145 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:12:27.147 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:12:27.176 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:12:27.178 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:12:27.479 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:12:27.479 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:12:27.480 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:12:27.481 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:12:27.481 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:12:27.482 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:12:27.856 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:12:27.857 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:12:27.858 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:12:27.858 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:12:27.858 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:12:27.859 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:13:27.148 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:13:27.150 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:13:27.151 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:13:27.151 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:13:27.152 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:13:27.152 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:13:27.455 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:13:27.455 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:13:27.456 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:13:27.456 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:13:27.456 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:13:27.457 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:13:27.762 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:13:27.762 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:13:27.763 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:13:27.764 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:13:27.764 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:13:27.764 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:31:48.661 [main] WaterLvlStarter - Starting WaterLvlStarter on CentOS7.3 with PID 5864 (/home/centos/Documents/kiot-da-2/kumana-deviceagent/com.kumana.iotp.serial.waterlvl/target/classes started by centos in /home/centos/Documents/kiot-da-2/kumana-deviceagent/com.kumana.iotp.serial.waterlvl)
+[INFO ] 2017-10-10 15:31:48.668 [main] WaterLvlStarter - No active profile set, falling back to default profiles: default
+[ERROR] 2017-10-10 15:31:51.213 [main] Transformations - file not found exception.
+[INFO ] 2017-10-10 15:31:52.081 [main] WaterLvlStarter - Started WaterLvlStarter in 4.082 seconds (JVM running for 13.93)
+[INFO ] 2017-10-10 15:31:52.083 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:31:52.084 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:31:52.094 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:31:52.095 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:31:52.396 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:31:52.396 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:31:52.397 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:31:52.398 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:31:52.398 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:31:52.399 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:31:52.796 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:31:52.797 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:31:52.799 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:31:52.799 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:31:52.800 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:31:52.800 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:32:52.082 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:32:52.083 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:32:52.086 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:32:52.086 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:32:52.087 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:32:52.087 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:32:52.389 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:32:52.389 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:32:52.391 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:32:52.391 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:32:52.391 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:32:52.391 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:32:52.693 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:32:52.693 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:32:52.696 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:32:52.696 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:32:52.697 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:32:52.697 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:32:54.574 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:33:07.976 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:33:52.083 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:33:52.084 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:33:52.085 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:33:52.086 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:33:52.086 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:33:52.086 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:33:52.390 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:33:52.391 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:33:52.392 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:33:52.392 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:33:52.393 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:33:52.393 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:33:52.695 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:33:52.696 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:33:52.698 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:33:52.698 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:33:52.698 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:33:52.698 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:33:53.036 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:34:08.063 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:34:08.187 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:34:52.085 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:34:52.085 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:34:52.087 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:34:52.087 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:34:52.087 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:34:52.087 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:34:52.390 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:34:52.390 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:34:52.392 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:34:52.392 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:34:52.392 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:34:52.392 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:34:52.698 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:34:52.699 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:34:52.701 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:34:52.701 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:34:52.701 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:34:52.701 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:34:53.157 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:35:08.057 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:35:52.085 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:35:52.086 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:35:52.087 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:35:52.087 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:35:52.087 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:35:52.088 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:35:52.389 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:35:52.389 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:35:52.391 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:35:52.391 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:35:52.391 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:35:52.391 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:35:52.694 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:35:52.695 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:35:52.696 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:35:52.696 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:35:52.696 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:35:52.696 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:35:52.917 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:36:08.254 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:36:52.091 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:36:52.091 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:36:52.095 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:36:52.095 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:36:52.095 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:36:52.095 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:36:52.397 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:36:52.397 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:36:52.399 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:36:52.399 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:36:52.399 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:36:52.399 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:36:52.701 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:36:52.701 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:36:52.703 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:36:52.703 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:36:52.703 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:36:52.703 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:36:53.128 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:37:08.209 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:37:52.092 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:37:52.092 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:37:52.095 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:37:52.095 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:37:52.095 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:37:52.095 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:37:52.397 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:37:52.397 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:37:52.399 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:37:52.399 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:37:52.399 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:37:52.399 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:37:52.702 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:37:52.702 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:37:52.704 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:37:52.704 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:37:52.704 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:37:52.704 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:37:53.247 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:38:08.202 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:41:30.645 [main] WaterLvlStarter - Starting WaterLvlStarter on CentOS7.3 with PID 6502 (/home/centos/Documents/kiot-da-2/kumana-deviceagent/com.kumana.iotp.serial.waterlvl/target/classes started by centos in /home/centos/Documents/kiot-da-2/kumana-deviceagent/com.kumana.iotp.serial.waterlvl)
+[INFO ] 2017-10-10 15:41:30.658 [main] WaterLvlStarter - No active profile set, falling back to default profiles: default
+[ERROR] 2017-10-10 15:41:33.126 [main] Transformations - file not found exception.
+[INFO ] 2017-10-10 15:41:33.741 [main] WaterLvlStarter - Started WaterLvlStarter in 3.683 seconds (JVM running for 11.331)
+[INFO ] 2017-10-10 15:41:33.744 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:41:33.746 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:41:33.756 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:41:33.758 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:41:34.058 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:41:34.058 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:41:34.059 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:41:34.059 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:41:34.060 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:41:34.060 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:41:34.487 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:41:34.487 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:41:34.489 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:41:34.489 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:41:34.489 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:41:34.490 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:42:33.744 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:42:33.744 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:42:33.745 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:42:33.745 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:42:33.745 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:42:33.745 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:42:34.047 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:42:34.047 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:42:34.049 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:42:34.049 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:42:34.049 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:42:34.049 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:42:34.353 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:42:34.353 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:42:34.354 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:42:34.354 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:42:34.354 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:42:34.354 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:42:36.105 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:44:47.506 [main] WaterLvlStarter - Starting WaterLvlStarter on CentOS7.3 with PID 6851 (/home/centos/Documents/kiot-da-2/kumana-deviceagent/com.kumana.iotp.serial.waterlvl/target/classes started by centos in /home/centos/Documents/kiot-da-2/kumana-deviceagent/com.kumana.iotp.serial.waterlvl)
+[INFO ] 2017-10-10 15:44:47.508 [main] WaterLvlStarter - No active profile set, falling back to default profiles: default
+[ERROR] 2017-10-10 15:44:49.841 [main] Transformations - file not found exception.
+[INFO ] 2017-10-10 15:44:50.497 [pool-2-thread-1] SerialSensorConnection - serial command received
+[INFO ] 2017-10-10 15:44:50.502 [main] WaterLvlStarter - Started WaterLvlStarter in 3.695 seconds (JVM running for 12.292)
+[WARN ] 2017-10-10 15:44:50.503 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:44:50.516 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:44:50.518 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:44:50.819 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:44:50.819 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:44:50.821 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:44:50.821 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:44:50.822 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:44:50.822 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:44:51.198 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:44:51.199 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:44:51.201 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:44:51.201 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:44:51.201 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:44:51.202 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:45:50.498 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:45:50.498 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:45:50.499 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:45:50.499 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:45:50.499 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:45:50.499 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:45:50.803 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:45:50.803 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:45:50.805 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:45:50.805 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:45:50.805 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:45:50.805 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:45:51.106 [pool-2-thread-1] SerialSensorConnection - serial command received
+[WARN ] 2017-10-10 15:45:51.106 [pool-2-thread-1] SerialSensorConnection - serial sensor is not connected.
+[INFO ] 2017-10-10 15:45:51.108 [pool-2-thread-1] SerialSensorConnection - connecting to port : null
+[WARN ] 2017-10-10 15:45:51.108 [pool-2-thread-1] SerialSensorConnection - serial connection failed
+[INFO ] 2017-10-10 15:45:51.108 [pool-2-thread-1] WaterLvlEventsListner - alert received from serial connection
+[INFO ] 2017-10-10 15:45:51.108 [pool-2-thread-1] SendMqMsg - trying to publish alert
+[INFO ] 2017-10-10 15:45:52.664 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
+[INFO ] 2017-10-10 15:46:08.662 [MQTT Call: waterlvlclientsub] Receiver - actuator msg received. start processing
